@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 
 
 
-const publicVapidKey='BHBLxSwwOTlaZYwzUNUVhXlGvS9UkdDnDoLCn4UchotDRZtq3WcQmhOB6-XKo6p5rrBckPjqSIgI1fyIRsNACoU';
-const privateVapidKey='TjLKSlds7aR7r0noJsqAmC7dpSMnzXPrNULVjYnpFmw';
+const publicVapidKey='BHBLxSwwOTlaZYwzUNUVhXlGvS9UkdDnDoLCn4UchotDRZtq3WcQmhOB6-X6p5rrBckPjqSIgI1fyIRsNACoU';
+const privateVapidKey='TjLKSlds7aR7r0noJsqAmC7dpSMnzNULVjYnpFmw';
 
 webpush.setVapidDetails('mailto:test@test.com',publicVapidKey,privateVapidKey);
 //Subscribe route
