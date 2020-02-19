@@ -18,7 +18,11 @@ if this wont work then make a new file generateKey.js and run this code
 
 
 var push=require('web-pusher');
+
+
 push.generateVAPIDKeys();
+
+
 console.log(push)
 
 then run this in your terminal
